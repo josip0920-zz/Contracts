@@ -1,4 +1,5 @@
 pragma solidity 0.6.0;
+import "./IERC165.sol";
 
 abstract contract IERC721 is IERC165 {
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
