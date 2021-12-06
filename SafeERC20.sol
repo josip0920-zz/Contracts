@@ -1,5 +1,7 @@
 pragma solidity 0.6.0;
+
 import "https://github.com/Eugene0920/Contracts/IERC20.sol";
+import "https://github.com/Eugene0920/Contracts/SafeMath.sol";
 import "https://github.com/Eugene0920/Contracts/Address.sol";
 
 library SafeERC20 {
